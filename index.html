@@ -38,19 +38,19 @@
 </head>
 
 <body>
-    <header>
+    <header class="home">
         <div class="header__content">
             <div class="header__left">
                 <a href="#">Hous<span>ing</span></a>
             </div>
             <div class="header__right">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Agents</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#" class="click__home">Home</a></li>
+                    <li><a href="#about" class="click__about">About</a></li>
+                    <li><a href="#blogs" class="click__blog">Blog</a></li>
+                    <li><a href="#port" class="click__port">Portfolio</a></li>
+                    <li><a href="#agents" class="click__agents">Agents</a></li>
+                    <li><a href="#contacts" class="click__contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -87,7 +87,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__content">
                 <div class="about__top">
@@ -165,7 +165,7 @@
             </div>
         </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="blogs">
         <div class="container">
             <div class="blog__content">
                 <h2>Blog</h2>
@@ -347,19 +347,19 @@
             </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="port">
         <div class="container">
-            <div class="port__title"></div>
+            <h3 class="text-center title">Portfolio</h3>
             <div class="port__content">
                 <div class="port__item">
                     <a href="/images/img1.jpg" class="lsb-preview" data-lsb-group="header">
                         <img src="/images/img1.jpg" alt="Alt">
-
                         <div class="overlay">
                             <h3>GALLERY</h3>
                             <p>Lorem ipsum dolor sit amet.</p>
                         </div>
                     </a>
+
                 </div>
                 <div class="port__item">
                     <a href="/images/img2.jpg" class="lsb-preview" data-lsb-group="header">
@@ -424,16 +424,183 @@
                     <form class="align-middle">
                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
                             aria-describedby="emailHelp">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Click</button>
                     </form>
 
                 </div>
             </div>
         </div>
     </section>
-    <section class="agents"></section>
-    <section class="contact"></section>
-    <footer></footer>
+    <section class="agents" id="agents">
+        <div class="container">
+            <h3 class="title text-center">Our Agents</h3>
+            <div class="agents__content">
+                <div class="agents__item">
+                    <img src="./images/t1.jpg" alt="">
+                    <div class="agents__text text-center">
+                        <h5>KAT WALLY</h5>
+                        <p>Lorem, ipsum.</p>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="agents__item">
+                    <img src="./images/t4.jpg" alt="">
+                    <div class="agents__text text-center">
+                        <h5>JOHN MAX</h5>
+                        <p>Lorem, ipsum.</p>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="agents__item">
+                    <img src="./images/t2.jpg" alt="">
+                    <div class="agents__text text-center">
+                        <h5>ROB KENT</h5>
+                        <p>Lorem, ipsum.</p>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="agents__item">
+                    <img src="./images/t3.jpg" alt="">
+                    <div class="agents__text text-center">
+                        <h5>JOY IDSON</h5>
+                        <p>Lorem, ipsum.</p>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contacts">
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3745.657945920633!2d94.925709!3d20.148312999999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30b7d19881308ae9%3A0x229dbaae31b864b9!2sZarmani!5e0!3m2!1sen!2sin!4v1419654909172"
+                frameborder="0"></iframe>
+        </div>
+        <div class="container">
+            <div class="contact__content">
+                <div class="contact__form">
+                    <h3 class="text-center">Contact Us</h3>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Last Name" required>
+                                <input type="email" name="mail" placeholder="Email" required>
+                                <input type="tel" name="fone" placeholder="Phone" required>
+                            </div>
+                            <div class="col-6">
+                                <input type="text" class="mess" placeholder="Message">
+                                <input type="submit" class="submit" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__item footer__left">
+                    <span>© 2017 Housing. All Rights Reserved | Design by</span>
+                    <a href="http://w3layouts.com/" target="new_blank">W3layouts</a>
+                </div>
+                <div class="footer__item footer__right">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="fab fa-facebook-f"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fab fa-twitter"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa fa-rss"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fab fa-vk"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <a href="#" class="backTop cd-top text-replace js-cd-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
 
 
     <!-- Jquery -->
@@ -509,7 +676,43 @@
             $.fn.lightspeedBox();
         });
     </script>
+    <script src="./JS/smoothscrol.js"></script>
 
-    <link rel="" href="./JS/main.js">
-    <link rel="" href="./JS/util.js">
+    <script>
+        document.querySelector('.click__about').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector('.about').scrollIntoView({ behavior: 'smooth' });
+        });;
+        document.querySelector('.click__home').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector('.home').scrollIntoView({ behavior: 'smooth' });
+        });;
+
+        document.querySelector('.click__blog').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector('.blog').scrollIntoView({ behavior: 'smooth' });
+        });;
+        document.querySelector('.click__port').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector('.portfolio').scrollIntoView({ behavior: 'smooth' });
+        });;
+        document.querySelector('.click__agents').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector('.agents').scrollIntoView({ behavior: 'smooth' });
+        });;
+        document.querySelector('.click__contact').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector('.contact').scrollIntoView({ behavior: 'smooth' });
+        });;
+        // // li><a href="#" class="click__home">Home</a></li>
+        // <li><a href="#about" class="click__about">About</a></li>
+        //             <li><a href="#blogs" class="click__blog">Blog</a></li>
+        //             <li><a href="#port" class="click__port">Portfolio</a></li>
+        //             <li><a href="#agents" class="click__agents">Agents</a></li>
+        //             <li><a href="#contacts" class="click__contact">Contact</a></li>
+    </script>
+
+    <script src="./JS/util.js"></script>
+    <script src="./JS/main.js"></script>
+
 </body>
